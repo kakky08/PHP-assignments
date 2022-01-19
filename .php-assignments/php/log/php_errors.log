@@ -24,3 +24,7 @@
 [19-Jan-2022 09:00:44 Asia/Tokyo] PHP Notice:  Undefined variable: answer in /var/www/html/assignments/assignment1-1/index.php on line 6
 [19-Jan-2022 09:00:59 Asia/Tokyo] PHP Notice:  Undefined variable: answer in /var/www/html/assignments/assignment1-1/index.php on line 6
 [19-Jan-2022 09:01:39 Asia/Tokyo] PHP Notice:  Undefined variable: answer in /var/www/html/assignments/assignment1-1/index.php on line 6
+[19-Jan-2022 23:57:30 Asia/Tokyo] PHP Notice:  Undefined index: search in /var/www/html/assignments/assignment1-2/index.php on line 3
+[19-Jan-2022 23:57:30 Asia/Tokyo] PHP Notice:  Undefined index: search in /var/www/html/assignments/assignment1-2/index.php on line 7
+[19-Jan-2022 23:58:23 Asia/Tokyo] PHP Notice:  Undefined variable: result in /var/www/html/assignments/assignment1-2/index.php on line 27
+[19-Jan-2022 23:58:25 Asia/Tokyo] PHP Notice:  Undefined variable: result in /var/www/html/assignments/assignment1-2/index.php on line 27
