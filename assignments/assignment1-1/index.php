@@ -10,7 +10,7 @@
 
 <body>
     <h1>問題 日本の首都は？</h1>
-    <form method="POST" action="index.php">
+    <form method="POST">
         <input type="text" name="answer">
         <input type="submit" value="OK">
     </form>
