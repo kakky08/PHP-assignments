@@ -10,6 +10,7 @@
 
 <body>
     <h1>問題 日本の首都は？</h1>
+    <!-- action を削除 -->
     <form method="POST">
         <input type="text" name="answer">
         <input type="submit" value="OK">
