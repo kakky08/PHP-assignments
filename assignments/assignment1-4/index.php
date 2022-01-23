@@ -9,7 +9,8 @@ function result($player, $com)
 {
     $result = ($player - $com + 3) % 3;
 
-    switch ($result) {
+    switch ($result)
+    {
         case 0:
             echo 'あいこ';
             break;
