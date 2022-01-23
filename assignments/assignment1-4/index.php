@@ -4,36 +4,7 @@ if (!empty($_POST)) {
 }
 $com = mt_rand(0, 2);
 
-function player_hand($player)
-{
-    switch ($player) {
-        case 0:
-            return 'グー';
-            break;
-        case 1:
-            return 'チョキ';
-            break;
-        case 2:
-            return 'パー';
-            break;
-    }
-}
-
-function com_hand($com)
-{
-    switch ($com) {
-        case 0:
-            return 'グー';
-            break;
-        case 1:
-            return 'チョキ';
-            break;
-        case 2:
-            return 'パー';
-            break;
-    }
-}
-
+$hand = ['グー', 'チョキ', 'パー'];
 function result($player, $com)
 {
     $result = ($player - $com + 3) % 3;
@@ -73,9 +44,9 @@ function result($player, $com)
     </form>
     <?php
     if (!empty($_POST)) {
-        echo sprintf('自分: %s', player_hand($player));
+        echo sprintf('自分: %s', $hand[$player]);
         echo '<br />';
-        echo sprintf('相手: %s', com_hand($com));
+        echo sprintf('相手: %s', $hand[$com]);
         echo '<br />';
         echo result($player, $com);
     }
