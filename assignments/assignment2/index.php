@@ -30,7 +30,8 @@
             $fizz_num = $fizz;
             $buzz_num = $buzz;
 
-            while($fizz_num < 100 || $buzz_num < 100){
+            while($fizz_num < 100 || $buzz_num < 100)
+            {
                 if($fizz_num === $buzz_num)
                 {
                     echo 'FizzBuzz: ' . $fizz_num . '<br />';
