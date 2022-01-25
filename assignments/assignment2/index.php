@@ -31,14 +31,19 @@
             $buzz_num = $buzz;
 
             while($fizz_num < 100 || $buzz_num < 100){
-                if($fizz_num === $buzz_num){
+                if($fizz_num === $buzz_num)
+                {
                     echo 'FizzBuzz: ' . $fizz_num . '<br />';
                     $fizz_num += $fizz;
                     $buzz_num += $buzz;
-                }elseif ($fizz_num < $buzz_num) {
+                }
+                elseif ($fizz_num < $buzz_num)
+                {
                     echo 'Fizz: ' . $fizz_num . '<br />';
                     $fizz_num += $fizz;
-                }else{
+                }
+                else
+                {
                     echo 'Buzz: ' . $buzz_num . '<br />';
                     $buzz_num += $buzz;
                 }
