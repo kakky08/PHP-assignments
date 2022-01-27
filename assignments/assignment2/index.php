@@ -26,27 +26,18 @@
         {
             $fizz = (int)$_POST['fizz'];
             $buzz = (int)$_POST['buzz'];
-
-            $fizz_num = $fizz;
-            $buzz_num = $buzz;
-
-            while($fizz_num < 100 || $buzz_num < 100)
-            {
-                if($fizz_num === $buzz_num)
+            for ($i = 1; $i < 100; $i++) {
+                if($i % $fizz == 0 && $i % $buzz == 0)
                 {
-                    echo 'FizzBuzz: ' . $fizz_num . '<br />';
-                    $fizz_num += $fizz;
-                    $buzz_num += $buzz;
+                    echo 'FizzBuzz: ' . $i . '<br />';
                 }
-                elseif ($fizz_num < $buzz_num)
+                elseif ($i % $fizz == 0)
                 {
-                    echo 'Fizz: ' . $fizz_num . '<br />';
-                    $fizz_num += $fizz;
+                    echo 'Fizz: ' . $i . '<br />';
                 }
-                else
+                elseif ($i % $buzz == 0)
                 {
-                    echo 'Buzz: ' . $buzz_num . '<br />';
-                    $buzz_num += $buzz;
+                    echo 'Buzz: ' . $i . '<br />';
                 }
             }
         }

@@ -603,3 +603,42 @@ Version: '5.7.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2022-01-25T15:12:21.226286Z 0 [Note] Shutting down plugin 'binlog'
 2022-01-25T15:12:21.296881Z 0 [Note] mysqld: Shutdown complete
 
+2022-01-27T12:08:35.698381Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-01-27T12:08:35.936136Z 0 [Note] mysqld (mysqld 5.7.36) starting as process 1 ...
+2022-01-27T12:08:35.972782Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-01-27T12:08:36.030044Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-01-27T12:08:36.034907Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-01-27T12:08:36.037593Z 0 [Note] InnoDB: Uses event mutexes
+2022-01-27T12:08:36.040958Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-01-27T12:08:36.044754Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-01-27T12:08:36.048626Z 0 [Note] InnoDB: Using Linux native AIO
+2022-01-27T12:08:36.080990Z 0 [Note] InnoDB: Number of pools: 1
+2022-01-27T12:08:36.097285Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-01-27T12:08:36.133680Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-01-27T12:08:36.201881Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-27T12:08:36.228728Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-01-27T12:08:36.493856Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-27T12:08:37.033066Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-01-27T12:08:37.284826Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-01-27T12:08:37.635170Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-01-27T12:08:37.648617Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-01-27T12:08:37.649298Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-01-27T12:08:37.650831Z 0 [Note] InnoDB: Waiting for purge to start
+2022-01-27T12:08:37.703130Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 12660474
+2022-01-27T12:08:37.705113Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-01-27T12:08:37.706173Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-01-27T12:08:38.448196Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220127 21:08:38
+2022-01-27T12:08:38.479183Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-01-27T12:08:38.496012Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-01-27T12:08:38.500475Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-01-27T12:08:38.502888Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-01-27T12:08:38.641761Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-01-27T12:08:38.650633Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-01-27T12:08:38.673272Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-01-27T12:08:38.685216Z 0 [Note] IPv6 is available.
+2022-01-27T12:08:38.691920Z 0 [Note]   - '::' resolves to '::';
+2022-01-27T12:08:38.693762Z 0 [Note] Server socket created on IP: '::'.
+2022-01-27T12:08:38.709209Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-01-27T12:08:40.751874Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-01-27T12:08:40.753979Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
