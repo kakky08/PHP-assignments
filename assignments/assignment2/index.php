@@ -28,15 +28,15 @@
             $buzz = (int)$_POST['buzz'];
             for ($i = 1; $i < 100; $i++)
             {
-                if($i % $fizz == 0 && $i % $buzz == 0)
+                if($i % $fizz === 0 && $i % $buzz === 0)
                 {
                     echo 'FizzBuzz: ' . $i . '<br />';
                 }
-                elseif ($i % $fizz == 0)
+                elseif ($i % $fizz === 0)
                 {
                     echo 'Fizz: ' . $i . '<br />';
                 }
-                elseif ($i % $buzz == 0)
+                elseif ($i % $buzz === 0)
                 {
                     echo 'Buzz: ' . $i . '<br />';
                 }
