@@ -12619,3 +12619,29 @@ Stack trace:
 [25-Jan-2022 19:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: fizz_num in /var/www/html/assignments/assignment2/index.php on line 32
 [25-Jan-2022 19:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: fizz_num in /var/www/html/assignments/assignment2/index.php on line 33
 [25-Jan-2022 19:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: buzz_num in /var/www/html/assignments/assignment2/index.php on line 34
+[29-Jan-2022 23:42:46 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 13
+[29-Jan-2022 23:42:46 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 14
+[29-Jan-2022 23:43:31 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 13
+[29-Jan-2022 23:43:31 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 14
+[30-Jan-2022 00:14:47 Asia/Tokyo] PHP Notice:  Undefined index: name in /var/www/html/assignments/assignment3/index.php on line 12
+[30-Jan-2022 00:15:31 Asia/Tokyo] PHP Notice:  Undefined variable: memos in /var/www/html/assignments/assignment3/index.php on line 12
+[30-Jan-2022 00:15:31 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/assignments/assignment3/index.php on line 12
+[30-Jan-2022 08:22:47 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 13
+[30-Jan-2022 08:22:47 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 14
+[30-Jan-2022 21:10:44 Asia/Tokyo] PHP Notice:  Array to string conversion in /var/www/html/assignments/assignment3/index.php on line 10
+[30-Jan-2022 21:10:44 Asia/Tokyo] PHP Notice:  Array to string conversion in /var/www/html/assignments/assignment3/index.php on line 10
+[30-Jan-2022 21:10:44 Asia/Tokyo] PHP Notice:  Array to string conversion in /var/www/html/assignments/assignment3/index.php on line 10
+[30-Jan-2022 21:41:12 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function getDetabaseConnection() in /var/www/html/assignments/assignment3/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/assignments/assignment3/index.php on line 4
+[30-Jan-2022 22:40:45 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 15
+[30-Jan-2022 22:40:45 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 16
+[30-Jan-2022 23:23:53 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 15
+[30-Jan-2022 23:23:53 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 16
+[30-Jan-2022 23:26:46 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 15
+[30-Jan-2022 23:26:46 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 16
+[30-Jan-2022 23:48:13 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 15
+[30-Jan-2022 23:48:13 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 16
+[30-Jan-2022 23:48:52 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 15
+[30-Jan-2022 23:48:52 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/assignments/assignment3/action/add.php on line 16
