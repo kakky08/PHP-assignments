@@ -1,0 +1,22 @@
+.input-name{
+    margin-bottom: 0.5rem;
+}
+
+.textarea-content{
+    margin-bottom: 0.5rem;
+}
+
+.textarea-content label{
+    display: block;
+}
+
+.textarea-content textarea{
+    display: block;
+}
+
+.post{
+    padding: 1rem;
+    margin: 0 1rem 1rem;
+    border:double;
+    border: double 5px rgb(0, 119, 217);
+}
