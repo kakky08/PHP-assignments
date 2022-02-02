@@ -1,7 +1,6 @@
 <?php
 require 'common/connect.php';
 $posts = array();
-$test = [];
 $database_handler = connect();
 $sql = 'SELECT id, name, content FROM posts ORDER BY updated_at ASC';
 $statement = $database_handler->prepare($sql);
