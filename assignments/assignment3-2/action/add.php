@@ -6,7 +6,7 @@
 
     $database_handler = connect();
 
-    $sql = 'INSERT INTO posts (name, content) VALUES(:name, :content)';
+    $sql = 'INSERT INTO contributions (name, content) VALUES(:name, :content)';
     try
     {
         $statement = $database_handler->prepare($sql);

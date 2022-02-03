@@ -4,13 +4,19 @@
     $id = $_POST['id'];
 
     $database_handler = connect();
-    $sql = 'DELETE FROM posts WHERE id = :id';
+    $sql = 'DELETE FROM contributions WHERE id = :id';
 
-    try {
+    try
+    {
         $statement = $database_handler->prepare($sql);
-        $statement->bindParam(':id', $id);
-        $statement->execute();
-    } catch (Throwable $e) {
+        if($statement)
+        {
+            $statement->bindParam(':id', $id);
+            $statement->execute();
+        }
+    }
+    catch (Throwable $e)
+    {
         echo $e->getMessage();
         exit;
     }
