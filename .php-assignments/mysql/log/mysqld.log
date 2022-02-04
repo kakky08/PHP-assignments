@@ -1476,3 +1476,4 @@ Version: '5.7.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2022-02-03T04:57:56.476668Z 78 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
 2022-02-03T04:57:56.477603Z 78 [ERROR] InnoDB: Cannot create file './php_assignments/posts.ibd'
 2022-02-03T04:57:56.478330Z 78 [ERROR] InnoDB: The file './php_assignments/posts.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. Have you moved InnoDB .ibd files around without using the SQL commands DISCARD TABLESPACE and IMPORT TABLESPACE, or did mysqld crash in the middle of CREATE TABLE? You can resolve the problem by removing the file './php_assignments/posts.ibd' under the 'datadir' of MySQL.
+2022-02-03T16:57:46.990012Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6385ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
